@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="flex flex-col items-center justify-center h-[100vh]">
+
+    <div class="flex min-h-[720px] w-[500px] flex-col gap-5 rounded-2xl border p-5 text-gray-800 shadow-lg">
+        <p class="text-center text-2xl font-bold">Registration</p>
+        <p id="mess"></p>
+        <div class="flex flex-col text-[18px]">
+            <label for="name"> Enter your name</label>
+            <input type="text" id="name" placeholder="Username" class=" rounded-xl border p-3" required />
+        </div>
+        <div class="flex flex-col text-[18px]">
+            <label for="email"> Enter your email</label>
+            <input type="email" id="email" placeholder="Email" class=" rounded-xl border p-3" required />
+        </div>
+        <div class="flex flex-col text-[18px]">
+            <label for="pass"> Enter your password</label>
+            <input type="password" id="pass" placeholder="password" class=" rounded-xl border p-3" required />
+        </div>
+        <div class="flex flex-col text-[18px]">
+            <label for="pass"> Confirm your password</label>
+            <input type="password" id="pass2" placeholder="Confirm password" class=" rounded-xl border p-3" required />
+        </div>
+
+        <div class="flex flex-col gap-3 text-[18px]">
+            <input type="text" id="cpatcha" class="rounded-xl border p-7" readonly />
+            <input type="text" id="cpatcha-check" class="rounded-xl border p-3" />
+        </div>
+
+        <button class="rounded-xl border bg-gray-300 p-3 active:bg-sky-200" id="submit">Registration</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgba(240, 248, 255, 0.694);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(im.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+    gap: calc(10px);
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 19px;
+    margin: 10px;
+    width: 395px;
+    gap: calc(15px);
+    background-color: #0000004D;
+    backdrop-filter: blur(10px);
+}
+
+.first3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: calc(5px);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="select"],
+input[type="radio"]
+{
+    padding: 6px;
+    border-radius: 4px;
+    color: gray;
+}
+
+button {
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    color: gray;
+    text-align: center;
+}
+select {
+    border:none;
+    resize: none;
+    padding: 6px;
+    border-radius: 4px;
+    color: gray;
+    background-color:rgb(179, 179, 179) ;
+}

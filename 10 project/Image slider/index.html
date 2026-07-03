@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="h-[100vh] flex justify-center items-center bg-gradient-to-r from-slate-200 via-stone-200 to-amber-100
+">
+  <div class="flex items-center gap-20">
+    <div class="w-[10vw] ">
+      <button id="leftbt">
+        <img src="arrow.png" class="w-[10vw] transition-all duration-300 hover:w-[9vw] rotate-180">
+      </button>
+    </div>
+    <div id="img" class="w-[800px] overflow-hidden rounded-2xl shadow-2xl">
+      <div class="box flex transition-transform duration-400 ease-in-out">
+        <img src="img1.jpg" class="h-[500px] w-[800px] flex-shrink-0">
+        <img src="img2.jpg" class="h-[500px] w-[800px] flex-shrink-0">
+        <img src="img3.jpg" class="h-[500px] w-[800px] flex-shrink-0">
+        <img src="img4.jpg" class="h-[500px] w-[800px] flex-shrink-0">
+      </div>
+    </div>
+    <div class="w-[10vw]">
+      <button id="rightbt">
+        <img src="arrow.png" class="w-[10vw] transition-all duration-300 hover:w-[9vw] ">
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
